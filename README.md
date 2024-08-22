@@ -58,6 +58,7 @@ A simple clone of the YouTube interface built using HTML and CSS. This project i
         ├── logo.png
         └── thumbnail1.jpg
         └── thumbnail2.jpg
+```
 * index.html: The main HTML file for the project.
 * css/style.css: The CSS file for styling the project.
 * images/: Folder containing images like the YouTube logo and video thumbnails.
