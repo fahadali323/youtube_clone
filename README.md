@@ -48,3 +48,17 @@ A simple clone of the YouTube interface built using HTML and CSS. This project i
 
 2. You can also use a live server (e.g., Visual Studio Code Live Server extension) to view the project.
 
+## Folder Struture
+```bash
+    youtube-clone/
+    ├── index.html
+    ├── css/
+    │   ├── style.css
+    └── images/
+        ├── logo.png
+        └── thumbnail1.jpg
+        └── thumbnail2.jpg
+* index.html: The main HTML file for the project.
+* css/style.css: The CSS file for styling the project.
+* images/: Folder containing images like the YouTube logo and video thumbnails.
+
