@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Practice</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">div 1</div>
+        <div class="child2">div 2</div>
+    </div>
+
+    <div class="parent2">
+        <div class="child1">div 1</div>
+        <div class="child2">div 2</div>
+    </div>
+
+    <div class="parent3">
+        <div class="child1">div 1</div>
+        <div class="child2">div 2</div>
+        <div class="child3">div 3</div>
+    </div>
+
+    <div class="parent4">
+        <div class="child1">div 1</div>
+        <div class="child2">div 2</div>
+        <div class="child3">div 3</div>
+    </div>
+    <div class="parent5">
+        <div class="child1">div 1</div>
+        <div class="child2">div 2</div>
+        <div class="child3">div 3</div>
+    </div>
+
+
+
+    <style>
+        .parent4, .parent5 {
+            margin-top: 50px;
+            height: 70px;
+            border: 1px solid gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .parent5 {
+            justify-content: space-between;
+            align-items: center
+        }
+        .parent5 > .child1 { width: 100px;}
+        .parent5 > .child2 { width: 100px;}
+        .parent5 > .child3 { width: 100px;}
+
+        .parent4 > .child1 {
+            width: 100px;
+        }
+        .parent4 > .child2{
+            width: 100px;
+        }
+        .parent4 > .child3 {
+            width: 100px;
+        }
+
+        .parent {
+            display: flex;
+            flex-direction: row;
+        }
+        .child1{
+            background-color: lightblue;
+        }
+        .child2 {
+            background-color: lightpink;       
+        }
+        .child3{
+            background-color: lightgreen;
+        }
+
+        .parent2 {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: row;
+        }
+        .parent2 > .child1 {
+            width: 100px;
+        }
+        .parent2 > .child2 {
+            flex: 1;
+        }
+        .parent3{
+            margin-top:50px;
+            display: flex;
+            flex-direction: row;
+        }
+        .parent3 > .child1 {
+            flex: 1;
+        }
+        .parent3 > .child2 {
+            flex: 2;
+        }
+        .parent3 > .child3 {
+            flex: 1;
+        }
+    </style>
+</body>
+</html>
